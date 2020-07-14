@@ -202,7 +202,7 @@ class YelpSpiderSpider(scrapy.Spider):
 		
 		#go to next page
 		#recursively call parse_biz method
-		next_page = f"https://www.yelp.com/biz/the-butchers-son-berkeley?start={YelpSpiderSpider.start}"
+		next_page = f"[MERCHANT URL]?start={YelpSpiderSpider.start}"
 		if YelpSpiderSpider.start < 1300: #stop on page num / 20
 			print("Going to next page in 10 seconds")
 			sleep(10)

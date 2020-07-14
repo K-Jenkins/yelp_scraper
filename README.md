@@ -3,4 +3,9 @@ Web scraper requests a given merchant Yelp page, parses reviews on the page and 
 
 Those interested in using the program will need to insert a merchant page URL within the program on lines 12, 19 and 205, within the quotes and replacing [MERCHANT URL]. Program must be run using scrapy method: scrapy crawl yelp_spider
 
-The current program uses "if/else" to check if certain elements are present before attempting to parse them. Future commits will replace these checks with "try/except" statements. Some code is commented-out for future update, such code includes explanation of why it is commented out.
+Roadmap:
+Replace "if/else" checks with "try/except"
+Replace SQLite3 db generation, write with PostgreSQL
+Updated commented-out code (contextual explanation within comments)
+Develop parse_search to scrape search results page (one level higher), cycle through multiple merchants
+Develop basic GUI, likely using Kivy

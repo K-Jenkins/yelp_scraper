@@ -11,7 +11,7 @@ Replace "if/else" checks with "try/except"
 
 Replace SQLite3 db generation, write with PostgreSQL
 
-Updated commented-out code (contextual explanation within comments)
+Update commented-out code (contextual explanation within comments)
 
 Develop parse_search to scrape search results page (one level higher), cycle through multiple merchants
 

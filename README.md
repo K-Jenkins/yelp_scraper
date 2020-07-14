@@ -3,7 +3,7 @@ Web scraper requests a given merchant Yelp page, parses reviews on the page and 
 
 Those interested in using the program will need to insert a merchant page URL within the program on lines 12, 19 and 205, within the quotes and replacing [MERCHANT URL]. Program must be run via shell using scrapy method: scrapy crawl yelp_spider
 
-Dependencies: (scrapy)[https://pypi.org/project/Scrapy3/], random, time, (SQLite3)[https://www.sqlite.org/index.html]
+Dependencies: scrapy, random, time, SQLite3
 
 Roadmap:
 

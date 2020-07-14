@@ -5,7 +5,7 @@ Those interested in using the program will need to insert a merchant page URL wi
 
 Dependencies: scrapy, random, time, SQLite3
 
-Roadmap:
+--Roadmap--
 
 Replace "if/else" checks with "try/except"
 
